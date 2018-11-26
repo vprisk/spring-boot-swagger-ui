@@ -2,10 +2,10 @@ package com.example.demo.bean;
 
 import io.swagger.annotations.ApiModelProperty;
 public class Student {
-    @ApiModelProperty(value = "姓名",required = true)
+    @ApiModelProperty(value = "姓名",required = true,example = "张三")
     private  String name;
 
-    @ApiModelProperty(value = "年龄",required = true)
+    @ApiModelProperty(value = "年龄",required = true,example = "23")
     private int age;
 
     public String getName() {
